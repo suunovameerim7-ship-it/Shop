@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+body{
+   
+    margin: 0;
+    padding: 0;
+
+    
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+ background-color:white;
+ display: flex;
+
+ justify-content: center;
+ align-items: center;
+}
+.text_block{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 50px;
+}
+.img_block{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+
+}
+img{
+    width: 100%;
+    
+}
+
+h1{
+    font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+     font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
